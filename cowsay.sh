@@ -1,4 +1,4 @@
 #!/bin/bash
 sudo apt-get install cowsay -y
-cowsay -f cow "Hi All" >> cow.txt
-cat cow.txt
+cowsay -f dragon "Hi All" >> dragon.txt
+cat dragon.txt
