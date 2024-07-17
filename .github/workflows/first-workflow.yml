@@ -11,8 +11,5 @@ jobs:
     - name: Test
       run: echo "test job"
 
-    - name:  List Files
-      run: ls
-
-    - name: Read Readme
-      run: cat README.md
+    - name:  cowsay test
+      run: /bin/bash cowsay.sh
