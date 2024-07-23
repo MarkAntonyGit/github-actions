@@ -10,7 +10,7 @@ jobs:
       uses: actions/checkout@v4   
 
     - name: Test
-      run: echo "test job"
+      run: echo "Testing new job"
 
     - name:  cowsay test
       run: /bin/bash cowsay.sh
