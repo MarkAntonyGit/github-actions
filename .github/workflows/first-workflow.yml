@@ -12,5 +12,5 @@ jobs:
     - name: Test
       run: echo "Testing new job"
 
-    - name:  cowsay test
+    - name:  cowsay testing
       run: /bin/bash cowsay.sh
